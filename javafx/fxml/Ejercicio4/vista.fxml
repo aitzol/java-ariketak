@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Ejercicio4.Controller">
+   <children>
+      <Pane prefHeight="316.0" prefWidth="600.0">
+         <children>
+            <ImageView fx:id="imageview" fitHeight="316.0" fitWidth="600.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <MotionBlur />
+               </effect></ImageView>
+         </children>
+      </Pane>
+      <ButtonBar layoutX="105.0" layoutY="322.0" prefHeight="40.0" prefWidth="376.0">
+        <buttons>
+            <Button fx:id="primero" mnemonicParsing="false" onAction="#primero" text="primero" />
+          <Button fx:id="anterior" mnemonicParsing="false" onAction="#anterior" text="anterior" />
+            <Button fx:id="siguiente" mnemonicParsing="false" onAction="#siguiente" text="siguiente" />
+            <Button fx:id="ultimo" mnemonicParsing="false" onAction="#ultimo" text="ultimo" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>
